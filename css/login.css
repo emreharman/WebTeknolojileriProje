@@ -1,0 +1,57 @@
+.govde{
+    min-height: 620px;
+    background-image: url("../img/loginBacground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kullanici-resim{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+.kullanici-resim img{
+    width: 100%;
+    border-radius: 50%;
+}
+.textbox{
+    width: 100%;
+    padding-left: 1rem;
+    border: 1px solid rgb(49, 47, 47);
+    border-radius: 20px;
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px gray;
+}
+.textbox:hover{
+    opacity: 1;
+}
+.kullanici{
+    margin-bottom: 1rem;
+}
+.login{
+    margin-top: 1rem;
+    
+}
+#loginButton{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 47, 47);
+    box-shadow: 2px 2px 2px gray;
+    opacity: 0.9;
+}
+#loginButton:hover{
+    opacity: 1;
+    box-shadow: 2px 2px 2px rgb(39, 38, 38);
+}
+.hata{
+    margin-top: 2rem;
+    border: 2px solid rgb(206, 194, 194);
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgb(206, 197, 197);
+    text-align: center;
+    color: rgb(228, 220, 220);
+    visibility: hidden;
+    line-height: 60px;
+}
+.footer{
+    margin: 0;
+}

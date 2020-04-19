@@ -1,0 +1,51 @@
+.header{
+    background-color: rgb(49, 47, 47);
+}
+.header a{
+    opacity: 0.9;
+    color: rgb(240, 240, 240);
+}
+.header a:hover{
+    opacity: 1;
+    color: rgb(240, 240, 240);
+    text-shadow: 1px 1px 1px white;
+}
+.fab{
+    margin-right: 5px;
+}
+.slider{
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.slider img{
+    border-radius: 10px;
+    
+}
+
+.footer{
+    margin-top: 30px;
+    height: 50px;
+    background-color:rgb(49, 47, 47) ;
+}
+.links{
+    margin-top: 40px;
+    padding: 10px;
+}
+.link{
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px 0;
+    
+}
+.links img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    opacity: 0.9;
+}
+.links img:hover{
+    opacity: 1;
+}
