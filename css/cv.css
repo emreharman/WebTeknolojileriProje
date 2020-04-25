@@ -1,0 +1,54 @@
+.govde{
+    background-color: rgb(121, 180, 248);
+    margin: 2rem 0;
+    padding: 1rem 0;
+    color: white;
+    border-left: 2px solid rgb(7, 134, 207);
+    border-bottom: 2px solid rgb(7, 134, 207);
+    border-radius: 20px;
+}
+.foto{
+    text-align: center;
+    padding-top: 2rem;
+}
+.foto img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.baslik-yazi{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    line-height: 11rem;
+}
+.baslik-yazi p{
+    margin-left: 3rem;
+}
+.bilgiler-baslik{
+    margin-top: 5rem;
+    border-bottom: 1px solid;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 760px){
+    .govde{
+        margin: 0;
+        border: none;
+        border-radius: 0%;
+    }
+    .baslik-yazi{
+        text-align: center;
+        line-height: 5rem;
+    }
+    .row-baslik{
+        text-decoration: underline;
+    }
+    .bilgiler-baslik{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .baslik-yazi p{
+        margin-left: 0;
+    }
+}

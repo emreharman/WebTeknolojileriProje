@@ -1,51 +1,82 @@
 .header{
-    background-color: rgb(49, 47, 47);
+    background-color: rgb(7, 134, 207);
 }
 .header a{
+    color: white;
     opacity: 0.9;
-    color: rgb(240, 240, 240);
+    font-size: 18px;
 }
 .header a:hover{
+    text-shadow: 1px  white;
     opacity: 1;
-    color: rgb(240, 240, 240);
-    text-shadow: 1px 1px 1px white;
-}
-.fab{
-    margin-right: 5px;
-}
-.slider{
-    height: 100%;
-    margin-top: 10px;
-    border-radius: 10px;
-    
-}
-.slider img{
-    border-radius: 10px;
-    
+    transition: all 0.1s linear;
+    color: white;
 }
 
-.footer{
-    margin-top: 30px;
-    height: 50px;
-    background-color:rgb(49, 47, 47) ;
-}
-.links{
-    margin-top: 40px;
+.giris{
     padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 2rem 1rem;
 }
-.link{
-    height: 200px;
-    border-radius: 5px;
-    margin: 5px 0;
+.kutu{
+    height: 10em;
+    padding: 0;
+    opacity: 0.9;
+   
+}
+.kutu:hover{
+    opacity: 1;
+}
+.resim{
+    height: 10em;
     
+    margin: 0;
 }
-.links img{
+.resim img{
     width: 100%;
     height: 100%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px gray;
-    opacity: 0.9;
+    border-radius: 10px;
 }
-.links img:hover{
-    opacity: 1;
+.yazi{
+    padding-top: 1.5rem;
+    height: 10em;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+    margin: 0;
+}
+.yazi p{
+    text-align: justify;
+}
+.yazi a{
+    color: black;
+}
+.yazi a:hover{
+    text-decoration: none;
+}
+.hobi-row{
+    margin: 8rem 0;
+}
+.footer{
+    height: 3em;
+    background-color: rgb(7, 134, 207);
+}
+.footer p{
+    height: 100%;
+    line-height: 3em;
+    padding-left: 1rem;
+    color: white;
+}
+
+
+@media screen and (max-width: 760px){
+    .kutu:not(:last-child){
+        margin-bottom: 12em;
+    }
+    .hobi-row{
+        margin-bottom: 12em;
+    }
 }

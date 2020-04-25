@@ -1,39 +1,29 @@
-.govde{
-   
-    min-height: 30rem;
+.baslik{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5em;
     
 }
-.row-resim{
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+.row-text{
+    margin: 2rem 0;
 }
-.row-resim img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    opacity: 0.8;
+.label{
+    text-align: center;
 }
 .text{
     width: 75%;
     border: 1px solid gray;
-    padding-left: 1rem;
-    opacity: 0.8;
     border-radius: 10px;
+    padding-left: 0.5em;
+    opacity: 0.8;
 }
 .text:hover{
     opacity: 1;
     box-shadow: 1px 1px 1px gray;
     transition: all 0.1s linear;
 }
-.text-div{
-    text-align: center;
-}
-.row-text{
-    margin-top: 1rem;
-}
-.button{
-    width: 30%;
+form button{
+    width: 40%;
     border: 1px solid rgb(7, 134, 207);
     border-radius: 10px;
     background-color: rgb(39, 150, 214);
@@ -41,19 +31,36 @@
     box-shadow: 1px 1px 1px gray;
     opacity: 0.8;
 }
-.button:hover{
+form button:hover{
     opacity: 1;
     box-shadow: 2px 2px 2px rgb(75, 72, 72);
     transition: all 0.1s linear;
+}
+.button{
+    text-align: center;
+    margin: 1rem 0;
 }
 .hata{
     height: 5rem;
     border: 1px solid rgb(7, 134, 207);
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgb(119, 121, 129);
-    margin-top: 2rem;
+    margin-top: 1rem;
     visibility: hidden;
     line-height: 5rem;
     text-align: center;
     color: rgb(7, 134, 207);
+
+}
+.footer{
+    margin-top: 2rem;
+}
+@media screen and (max-width: 760px){
+    .label{
+        text-align: left;
+    }
+    .button{
+        text-align: center;
+        margin: 0.5rem 0;
+    }
 }
