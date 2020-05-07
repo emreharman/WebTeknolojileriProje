@@ -70,6 +70,23 @@
     padding-left: 1rem;
     color: white;
 }
+.yukari{
+    position: fixed;
+    top: 85%;
+    left: 95%;
+    z-index: 1000;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(7, 134, 207);
+    opacity: 0.5;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+}
+.yukari:hover{
+    opacity: 1;
+}
 
 
 @media screen and (max-width: 760px){
